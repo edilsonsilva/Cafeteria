@@ -56,3 +56,24 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+/* Criação da formatação do rodapé(footer) */
+footer {
+  background-color: sandybrown;
+  text-align: center;
+  color: rgb(200, 0, 0);
+  font-family: "abel";
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+div ul li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 30px;
+}
+div a {
+  color: rgb(100, 0, 0);
+  text-decoration: none;
+}
