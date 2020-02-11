@@ -77,3 +77,109 @@ div a {
   color: rgb(100, 0, 0);
   text-decoration: none;
 }
+
+main {
+  /* vamos aplicar uma margem interna de 20px
+  Utilizaremos o comando padding */
+  padding: 20px;
+}
+
+h2 {
+  font-family: abel;
+  color: rgb(100, 0, 0);
+  font-size: 20pt;
+  border-bottom: 1px solid rgb(100, 0, 0);
+  margin-left: 30px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-family: abel;
+  margin-left: 70px;
+  font-size: 15pt;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+p {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+  /* Aplicaremos um comando que aumenta a altura da linha. Esse efeito 
+  simula o espaçamento entre linhas encontrado no Word. O comando é
+  line-height -> linha height */
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-family: abel;
+  font-size: 13pt;
+}
+
+#home {
+  text-align: center;
+}
+
+#home img {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  /* Vamos aplicar um efeito de transparência
+  com o comando opacity. Onde os valores 1
+  é totalmente visível e 0 é totalmente 
+  transparente */
+  opacity: 0.5;
+  border-radius: 50%;
+  transition: ease 2s;
+}
+
+#home img:hover {
+  opacity: 1;
+  transform: scale(2);
+  cursor: pointer;
+  transform: rotateY(360deg);
+}
+
+#acafeteria {
+  text-align: center;
+}
+#acafeteria img {
+  width: 500px;
+  height: 400px;
+}
+#video {
+  text-align: center;
+}
+
+/* Abaixo a formatação para a página cardápio */
+#container,
+#linha,
+#imagem,
+#texto {
+  /* border: 1px solid red; */
+}
+
+#container {
+  display: inline-block;
+}
+
+#linha {
+  display: table;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imagem img {
+  width: 200px;
+  height: 200px;
+}
+#imagem {
+  width: 200px;
+  height: 200px;
+  /* Fazer a imagem flutuar para a esquerda */
+  float: left;
+}
+#texto {
+  padding: 20px;
+  width: 80%;
+  float: left;
+}
